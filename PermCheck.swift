@@ -8,7 +8,8 @@
 
 import Foundation
 
-
+// https://codility.com/programmers/lessons/4-counting_elements/perm_check/
+// 80% for Performance!
 public func permCheck(_ array : [Int]) -> Int {
     
     if array.isEmpty {
