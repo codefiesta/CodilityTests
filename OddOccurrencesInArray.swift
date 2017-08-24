@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Find value that occurs in odd number of elements.
 public func solution(_ A : inout [Int]) -> Int {
     var item = 0
     

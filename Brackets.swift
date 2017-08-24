@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 // Given a string S consisting of N characters, returns 1 if S is properly nested and 0 otherwise.
 public func properNesting(_ string : String) -> Int {
     
@@ -48,12 +47,8 @@ public func properNesting(_ string : String) -> Int {
                     brackets.removeLast()
                 }
                 //print("Checking \(lastOpened) against \(value) = \(openVal)")
-                
-                
             }
         }
-        
-        
     }
     return brackets.isEmpty ? 1 : 0
 }
